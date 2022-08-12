@@ -33,7 +33,7 @@ namespace PayCore__HW1.Controllers
 
             interestResultModel.InterestAmount = interestAmount;
 
-            interestResultModel.TotalBalance = principal * Math.Pow((1 + interestAmount), expiry);
+            interestResultModel.TotalBalance = principal * Math.Pow((1 + interestAmount / 100), expiry);
 
 
 
