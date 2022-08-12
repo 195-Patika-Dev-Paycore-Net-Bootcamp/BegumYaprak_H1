@@ -5,6 +5,10 @@
     {
         public double InterestAmount { get; set; } //faiz oranı
 
-        public double TotalBalance { get; set; }  // Toplam Faiz
+        public double InterestYield { get; set; } // Faiz Getirisi 
+        public double TotalBalance { get; set; }  // Toplam Para
+
+
+
     }
 }
